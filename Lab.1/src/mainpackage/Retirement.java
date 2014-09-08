@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Retirement {
 	public static void main(String[] args) {
 		
-		System.out.println("Welcome to Annuity Calculator");
+		System.out.println("Welcome to Gary's Retirement Calculator");
 
 		
 		Scanner input = new Scanner(System.in);
