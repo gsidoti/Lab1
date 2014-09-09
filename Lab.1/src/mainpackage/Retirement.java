@@ -32,7 +32,7 @@ public class Retirement {
 		
 		
 	    double Total = (Income-MthSSI)*((1-(1/Math.pow(1+(AnnualRtnFV/1200.0),(12*YrsRet))))/(AnnualRtnFV/1200.0));
-	    double Monthly = (Total)/(((Math.pow((1+(AnnualRtnPV/1200.0)),(YrsWork * 12)))-1)/((AnnualRtnPV/1200.0)));
+	    double Monthly = (Total)/(((Math.pow((1+(AnnualRtnPV/1200.0)),(YrsWork * 12)))-1)/(AnnualRtnPV/1200.0));
 	    	    
 	    double TotalRnd = Math.round(Total*100.0)/100.0;
 	    double MonthlyRnd = Math.round(Monthly*100.0)/100.0;
